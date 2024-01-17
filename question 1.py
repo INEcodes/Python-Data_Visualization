@@ -6,4 +6,4 @@ plt.title('halat kharab')
 plt.xlabel('year')
 plt.ylabel('unemployment rate')
 plt.grid('true')
-
+plt.show()
