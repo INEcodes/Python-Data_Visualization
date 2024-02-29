@@ -6,3 +6,5 @@ df =pd.read_csv("C:/Users/ADMIN/Documents/GitHub/Python-SKLearn/Iris_Flower_kagg
 data = np.asarray(df['sepal_length']).reshape(150,1)
 sns.heatmap(data)
 plt.show()
+sns.kdeplot(y=df['sepal_length'], x=df['petal_length'] ,color='green',fill = True)
+plt.show()
